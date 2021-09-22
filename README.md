@@ -13,7 +13,7 @@ cartesian system. So that Client can calculate its length.
 
 ## How to run test
 
-TBD
+- Run `./gradlew test`
 
 ## Build instruction
 
@@ -21,4 +21,4 @@ TBD
 
 ## Run instruction
 
-TBD
+- Import the desired class and use the function
