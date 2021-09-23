@@ -30,4 +30,9 @@ class LineTest {
     void testCalculateLengthGivenVerticalLineWithMinusDeltaValueExpectReturnItsLength() {
         assertEquals(6.0, Line.calculateLength(9, 8, 9, 2));
     }
+
+    @Test
+    void testCalculateLengthGivenAllParameterValueIsDifferentExpectReturnLineLength() {
+        assertEquals(5.0, Line.calculateLength(2, 4, 5, 8));
+    }
 }
